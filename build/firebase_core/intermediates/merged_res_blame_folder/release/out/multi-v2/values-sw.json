@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "io.flutter.plugins.firebase.core.firebase_core-merged_res-12:/values-sw/values-sw.xml",
+            "map": [
+                {
+                    "source": "/Users/mac/.gradle/caches/transforms-3/edb38141fc4b872dfab5526bcdae82af/transformed/core-1.6.0/res/values-sw/values-sw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "201",
+                        "endColumns": "100",
+                        "endOffsets": "297"
+                    }
+                },
+                {
+                    "source": "/Users/mac/.gradle/caches/transforms-3/86c1201887c098a6832572f672e703a7/transformed/jetified-play-services-basement-18.1.0/res/values-sw/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "141",
+                        "endOffsets": "336"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "145",
+                        "endOffsets": "196"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-10:/values-sw/values-sw.xml",
+            "map": [
+                {
+                    "source": "/Users/mac/.gradle/caches/transforms-3/edb38141fc4b872dfab5526bcdae82af/transformed/core-1.6.0/res/values-sw/values-sw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "201",
+                        "endColumns": "100",
+                        "endOffsets": "297"
+                    }
+                },
+                {
+                    "source": "/Users/mac/.gradle/caches/transforms-3/86c1201887c098a6832572f672e703a7/transformed/jetified-play-services-basement-18.1.0/res/values-sw/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "141",
+                        "endOffsets": "336"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "145",
+                        "endOffsets": "196"
+                    }
+                }
+            ]
+        }
+    ]
+}

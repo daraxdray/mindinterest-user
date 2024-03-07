@@ -1,0 +1,16 @@
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-window-java-1.0.0-beta04-0 /Users/mac/.gradle/caches/transforms-3/1431627d644f7850d8210ab6fcc15c38/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-annotation-experimental-1.1.0-1 /Users/mac/.gradle/caches/transforms-3/2525266aba30133b028828ad83740afd/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-firebase-common-20.1.2-2 /Users/mac/.gradle/caches/transforms-3/36f510609a5d0d9f81893e2ff1ba3b48/transformed/jetified-firebase-common-20.1.2/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-play-services-basement-18.1.0-3 /Users/mac/.gradle/caches/transforms-3/86c1201887c098a6832572f672e703a7/transformed/jetified-play-services-basement-18.1.0/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-play-services-base-18.0.1-4 /Users/mac/.gradle/caches/transforms-3/d2e1eb6032ac108ad93b916d3a29d365/transformed/jetified-play-services-base-18.0.1/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-window-1.0.0-beta04-5 /Users/mac/.gradle/caches/transforms-3/e1b324dced4ebc94913eb617567883b7/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-core-1.6.0-6 /Users/mac/.gradle/caches/transforms-3/edb38141fc4b872dfab5526bcdae82af/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-main-7 /Users/mac/.pub-cache/hosted/pub.dev/cloud_firestore-3.5.1/android/src/main/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-release-8 /Users/mac/.pub-cache/hosted/pub.dev/cloud_firestore-3.5.1/android/src/release/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-pngs-9 /Users/mac/Mobiles/mindinterst-user/build/cloud_firestore/generated/res/pngs/release
+io.flutter.plugins.firebase.firestore.cloud_firestore-resValues-10 /Users/mac/Mobiles/mindinterst-user/build/cloud_firestore/generated/res/resValues/release
+io.flutter.plugins.firebase.firestore.cloud_firestore-rs-11 /Users/mac/Mobiles/mindinterst-user/build/cloud_firestore/generated/res/rs/release
+io.flutter.plugins.firebase.firestore.cloud_firestore-mergeReleaseResources-12 /Users/mac/Mobiles/mindinterst-user/build/cloud_firestore/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.firestore.cloud_firestore-mergeReleaseResources-13 /Users/mac/Mobiles/mindinterst-user/build/cloud_firestore/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.firestore.cloud_firestore-merged_res-14 /Users/mac/Mobiles/mindinterst-user/build/cloud_firestore/intermediates/merged_res/release
+io.flutter.plugins.firebase.firestore.cloud_firestore-packaged_res-15 /Users/mac/Mobiles/mindinterst-user/build/firebase_core/intermediates/packaged_res/release

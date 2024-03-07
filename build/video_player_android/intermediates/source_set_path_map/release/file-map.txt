@@ -1,0 +1,14 @@
+io.flutter.plugins.videoplayer.video_player_android-jetified-window-java-1.0.0-beta04-0 /Users/mac/.gradle/caches/transforms-3/1431627d644f7850d8210ab6fcc15c38/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.videoplayer.video_player_android-jetified-annotation-experimental-1.1.0-1 /Users/mac/.gradle/caches/transforms-3/2525266aba30133b028828ad83740afd/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.videoplayer.video_player_android-core-1.7.0-2 /Users/mac/.gradle/caches/transforms-3/4807b33220cbe0942f0a3096cd6b950a/transformed/core-1.7.0/res
+io.flutter.plugins.videoplayer.video_player_android-jetified-exoplayer-core-2.18.7-3 /Users/mac/.gradle/caches/transforms-3/535eaf40328db1c70fa4b55db9a28601/transformed/jetified-exoplayer-core-2.18.7/res
+io.flutter.plugins.videoplayer.video_player_android-lifecycle-runtime-2.3.1-4 /Users/mac/.gradle/caches/transforms-3/d6b57a695aa254a9ab2aba8f486edf01/transformed/lifecycle-runtime-2.3.1/res
+io.flutter.plugins.videoplayer.video_player_android-jetified-window-1.0.0-beta04-5 /Users/mac/.gradle/caches/transforms-3/e1b324dced4ebc94913eb617567883b7/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.videoplayer.video_player_android-main-6 /Users/mac/.pub-cache/hosted/pub.dev/video_player_android-2.4.10/android/src/main/res
+io.flutter.plugins.videoplayer.video_player_android-release-7 /Users/mac/.pub-cache/hosted/pub.dev/video_player_android-2.4.10/android/src/release/res
+io.flutter.plugins.videoplayer.video_player_android-pngs-8 /Users/mac/Mobiles/mindinterst-user/build/video_player_android/generated/res/pngs/release
+io.flutter.plugins.videoplayer.video_player_android-resValues-9 /Users/mac/Mobiles/mindinterst-user/build/video_player_android/generated/res/resValues/release
+io.flutter.plugins.videoplayer.video_player_android-rs-10 /Users/mac/Mobiles/mindinterst-user/build/video_player_android/generated/res/rs/release
+io.flutter.plugins.videoplayer.video_player_android-mergeReleaseResources-11 /Users/mac/Mobiles/mindinterst-user/build/video_player_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.videoplayer.video_player_android-mergeReleaseResources-12 /Users/mac/Mobiles/mindinterst-user/build/video_player_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.videoplayer.video_player_android-merged_res-13 /Users/mac/Mobiles/mindinterst-user/build/video_player_android/intermediates/merged_res/release

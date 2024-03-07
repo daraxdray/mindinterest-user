@@ -1,0 +1,12 @@
+com.tekartik.sqflite-jetified-window-java-1.0.0-beta04-0 /Users/mac/.gradle/caches/transforms-3/1431627d644f7850d8210ab6fcc15c38/transformed/jetified-window-java-1.0.0-beta04/res
+com.tekartik.sqflite-jetified-annotation-experimental-1.1.0-1 /Users/mac/.gradle/caches/transforms-3/2525266aba30133b028828ad83740afd/transformed/jetified-annotation-experimental-1.1.0/res
+com.tekartik.sqflite-jetified-window-1.0.0-beta04-2 /Users/mac/.gradle/caches/transforms-3/e1b324dced4ebc94913eb617567883b7/transformed/jetified-window-1.0.0-beta04/res
+com.tekartik.sqflite-core-1.6.0-3 /Users/mac/.gradle/caches/transforms-3/edb38141fc4b872dfab5526bcdae82af/transformed/core-1.6.0/res
+com.tekartik.sqflite-main-4 /Users/mac/.pub-cache/hosted/pub.dev/sqflite-2.2.8+4/android/src/main/res
+com.tekartik.sqflite-release-5 /Users/mac/.pub-cache/hosted/pub.dev/sqflite-2.2.8+4/android/src/release/res
+com.tekartik.sqflite-pngs-6 /Users/mac/Mobiles/mindinterst-user/build/sqflite/generated/res/pngs/release
+com.tekartik.sqflite-resValues-7 /Users/mac/Mobiles/mindinterst-user/build/sqflite/generated/res/resValues/release
+com.tekartik.sqflite-rs-8 /Users/mac/Mobiles/mindinterst-user/build/sqflite/generated/res/rs/release
+com.tekartik.sqflite-mergeReleaseResources-9 /Users/mac/Mobiles/mindinterst-user/build/sqflite/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.tekartik.sqflite-mergeReleaseResources-10 /Users/mac/Mobiles/mindinterst-user/build/sqflite/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.tekartik.sqflite-merged_res-11 /Users/mac/Mobiles/mindinterst-user/build/sqflite/intermediates/merged_res/release

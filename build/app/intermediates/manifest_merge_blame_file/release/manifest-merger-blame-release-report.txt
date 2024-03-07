@@ -1,0 +1,689 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mindinterest.mindinterest_user"
+4    android:versionCode="6"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:4:5-66
+11-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:5:5-71
+12-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:5:22-68
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:6:5-64
+13-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:6:22-62
+14    <uses-permission android:name="android.permission.BLUETOOTH" />
+14-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:7:5-67
+14-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:7:22-65
+15    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+15-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:8:5-79
+15-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:8:22-77
+16    <uses-permission android:name="android.permission.VIDEO_CAPTURE" />
+16-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:9:5-72
+16-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:9:22-69
+17    <uses-permission android:name="android.permission.AUDIO_CAPTURE" />
+17-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:10:5-72
+17-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:10:22-69
+18    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+18-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:11:5-78
+18-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:11:22-76
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[:firebase_analytics] /Users/mac/Mobiles/mindinterst-user/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+19-->[:firebase_analytics] /Users/mac/Mobiles/mindinterst-user/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
+20    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions options for the `notification` group -->
+20-->[:firebase_analytics] /Users/mac/Mobiles/mindinterst-user/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-68
+20-->[:firebase_analytics] /Users/mac/Mobiles/mindinterst-user/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-65
+21    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+21-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+21-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->[:file_picker] /Users/mac/Mobiles/mindinterst-user/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-80
+22-->[:file_picker] /Users/mac/Mobiles/mindinterst-user/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-77
+23
+24    <queries>
+24-->[:file_picker] /Users/mac/Mobiles/mindinterst-user/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:15
+25        <intent>
+25-->[:file_picker] /Users/mac/Mobiles/mindinterst-user/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:18
+26            <action android:name="android.intent.action.GET_CONTENT" />
+26-->[:file_picker] /Users/mac/Mobiles/mindinterst-user/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-72
+26-->[:file_picker] /Users/mac/Mobiles/mindinterst-user/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:21-69
+27
+28            <data android:mimeType="*/*" />
+28-->[:file_picker] /Users/mac/Mobiles/mindinterst-user/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+28-->[:file_picker] /Users/mac/Mobiles/mindinterst-user/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:19-41
+29        </intent>
+30        <intent>
+30-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+31            <action android:name="android.support.customtabs.action.CustomTabsService" />
+31-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-90
+31-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-87
+32        </intent>
+33    </queries>
+34
+35    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+35-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+35-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+36    <uses-permission android:name="android.permission.VIBRATE" />
+36-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+36-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+37    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+37-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+37-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+38    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+38-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
+38-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
+39    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+39-->[com.google.firebase:firebase-messaging:23.0.8] /Users/mac/.gradle/caches/transforms-3/7150f6ba60e9ed0012f6af7a3cda87fb/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:29:5-82
+39-->[com.google.firebase:firebase-messaging:23.0.8] /Users/mac/.gradle/caches/transforms-3/7150f6ba60e9ed0012f6af7a3cda87fb/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:29:22-79
+40    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+40-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/mac/.gradle/caches/transforms-3/2d95321a28d8cce3284ab251c69450c6/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:26:5-110
+40-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/mac/.gradle/caches/transforms-3/2d95321a28d8cce3284ab251c69450c6/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:26:22-107
+41
+42    <permission
+42-->[androidx.core:core:1.10.1] /Users/mac/.gradle/caches/transforms-3/9c8fdc46c95a7f1652c7d7557c6876c2/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+43        android:name="com.mindinterest.mindinterest_user.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+43-->[androidx.core:core:1.10.1] /Users/mac/.gradle/caches/transforms-3/9c8fdc46c95a7f1652c7d7557c6876c2/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+44        android:protectionLevel="signature" />
+44-->[androidx.core:core:1.10.1] /Users/mac/.gradle/caches/transforms-3/9c8fdc46c95a7f1652c7d7557c6876c2/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+45
+46    <uses-permission android:name="com.mindinterest.mindinterest_user.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+46-->[androidx.core:core:1.10.1] /Users/mac/.gradle/caches/transforms-3/9c8fdc46c95a7f1652c7d7557c6876c2/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+46-->[androidx.core:core:1.10.1] /Users/mac/.gradle/caches/transforms-3/9c8fdc46c95a7f1652c7d7557c6876c2/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+47
+48    <application
+49        android:name="android.app.Application"
+49-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:15:9-42
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.10.1] /Users/mac/.gradle/caches/transforms-3/9c8fdc46c95a7f1652c7d7557c6876c2/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+51        android:extractNativeLibs="false"
+52        android:icon="@mipmap/ic_launcher"
+52-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:16:9-43
+53        android:label="MindInterest user" >
+53-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:14:9-42
+54        <activity
+54-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:17:9-46:20
+55            android:name="com.mindinterest.user.MainActivity"
+55-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:18:13-41
+56            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+56-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:21:13-163
+57            android:exported="true"
+57-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:24:13-36
+58            android:hardwareAccelerated="true"
+58-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:22:13-47
+59            android:launchMode="singleTop"
+59-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:19:13-43
+60            android:theme="@style/LaunchTheme"
+60-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:20:13-47
+61            android:windowSoftInputMode="adjustResize" >
+61-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:23:13-55
+62
+63            <!--
+64                 Specifies an Android theme to apply to this Activity as soon as
+65                 the Android process has started. This theme is visible to the user
+66                 while the Flutter UI initializes. After that, this theme continues
+67                 to determine the Window background behind the Flutter UI.
+68            -->
+69            <meta-data
+69-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:29:13-32:17
+70                android:name="io.flutter.embedding.android.NormalTheme"
+70-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:30:15-70
+71                android:resource="@style/NormalTheme" />
+71-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:31:15-52
+72            <!--
+73                 Displays an Android View that continues showing the launch screen
+74                 Drawable until Flutter paints its first frame, then this splash
+75                 screen fades out. A splash screen is useful to avoid any visual
+76                 gap between the end of Android's launch screen and the painting of
+77                 Flutter's first frame.
+78            -->
+79            <meta-data
+79-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:38:13-41:17
+80                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+80-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:39:15-79
+81                android:resource="@drawable/launch_background" />
+81-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:40:15-61
+82
+83            <intent-filter>
+83-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:42:13-45:29
+84                <action android:name="android.intent.action.MAIN" />
+84-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:43:17-68
+84-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:43:25-66
+85
+86                <category android:name="android.intent.category.LAUNCHER" />
+86-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:44:17-76
+86-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:44:27-74
+87            </intent-filter>
+88        </activity>
+89        <!--
+90             Don't delete the meta-data below.
+91             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+92        -->
+93        <meta-data
+93-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:49:9-51:33
+94            android:name="flutterEmbedding"
+94-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:50:13-44
+95            android:value="2" />
+95-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:51:13-30
+96
+97        <service
+97-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:53:8-60:18
+98            android:name="com.twilio.twilio_voice.fcm.VoiceFirebaseMessagingService"
+98-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:54:16-88
+99            android:exported="true"
+99-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:56:16-39
+100            android:stopWithTask="false" >
+100-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:55:16-44
+101            <intent-filter>
+101-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:57:12-59:28
+102                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+102-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:58:16-77
+102-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:58:24-74
+103            </intent-filter>
+104        </service>
+105
+106        <activity
+106-->[:flutter_paystack] /Users/mac/Mobiles/mindinterst-user/build/flutter_paystack/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:54
+107            android:name="co.paystack.flutterpaystack.AuthActivity"
+107-->[:flutter_paystack] /Users/mac/Mobiles/mindinterst-user/build/flutter_paystack/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-68
+108            android:theme="@style/Paystack.Dialog" />
+108-->[:flutter_paystack] /Users/mac/Mobiles/mindinterst-user/build/flutter_paystack/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-51
+109
+110        <service
+110-->[:cloud_firestore] /Users/mac/Mobiles/mindinterst-user/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+111            android:name="com.google.firebase.components.ComponentDiscoveryService"
+111-->[:cloud_firestore] /Users/mac/Mobiles/mindinterst-user/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+112            android:directBootAware="true"
+112-->[com.google.firebase:firebase-common:20.1.2] /Users/mac/.gradle/caches/transforms-3/36f510609a5d0d9f81893e2ff1ba3b48/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:35:13-43
+113            android:exported="false" >
+113-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:66:13-37
+114            <meta-data
+114-->[:cloud_firestore] /Users/mac/Mobiles/mindinterst-user/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+115                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+115-->[:cloud_firestore] /Users/mac/Mobiles/mindinterst-user/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[:cloud_firestore] /Users/mac/Mobiles/mindinterst-user/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+117            <meta-data
+117-->[:firebase_analytics] /Users/mac/Mobiles/mindinterst-user/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:85
+118                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+118-->[:firebase_analytics] /Users/mac/Mobiles/mindinterst-user/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-128
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[:firebase_analytics] /Users/mac/Mobiles/mindinterst-user/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-82
+120            <meta-data
+120-->[:firebase_auth] /Users/mac/Mobiles/mindinterst-user/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+121                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+121-->[:firebase_auth] /Users/mac/Mobiles/mindinterst-user/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[:firebase_auth] /Users/mac/Mobiles/mindinterst-user/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+123            <meta-data
+123-->[:firebase_storage] /Users/mac/Mobiles/mindinterst-user/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+124                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+124-->[:firebase_storage] /Users/mac/Mobiles/mindinterst-user/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-126
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[:firebase_storage] /Users/mac/Mobiles/mindinterst-user/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+126            <meta-data
+126-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
+127                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+127-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
+129            <meta-data
+129-->[:firebase_core] /Users/mac/Mobiles/mindinterst-user/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+130                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+130-->[:firebase_core] /Users/mac/Mobiles/mindinterst-user/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+131                android:value="com.google.firebase.components.ComponentRegistrar" />
+131-->[:firebase_core] /Users/mac/Mobiles/mindinterst-user/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+132            <meta-data
+132-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:67:13-69:85
+133                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+133-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:68:17-109
+134                android:value="com.google.firebase.components.ComponentRegistrar" />
+134-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:69:17-82
+135            <meta-data
+135-->[com.google.firebase:firebase-firestore:24.3.1] /Users/mac/.gradle/caches/transforms-3/e7494955c2f383f60619455b81531412/transformed/jetified-firebase-firestore-24.3.1/AndroidManifest.xml:20:13-22:85
+136                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+136-->[com.google.firebase:firebase-firestore:24.3.1] /Users/mac/.gradle/caches/transforms-3/e7494955c2f383f60619455b81531412/transformed/jetified-firebase-firestore-24.3.1/AndroidManifest.xml:21:17-111
+137                android:value="com.google.firebase.components.ComponentRegistrar" />
+137-->[com.google.firebase:firebase-firestore:24.3.1] /Users/mac/.gradle/caches/transforms-3/e7494955c2f383f60619455b81531412/transformed/jetified-firebase-firestore-24.3.1/AndroidManifest.xml:22:17-82
+138            <meta-data
+138-->[com.google.firebase:firebase-messaging:23.0.8] /Users/mac/.gradle/caches/transforms-3/7150f6ba60e9ed0012f6af7a3cda87fb/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:56:13-58:85
+139                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+139-->[com.google.firebase:firebase-messaging:23.0.8] /Users/mac/.gradle/caches/transforms-3/7150f6ba60e9ed0012f6af7a3cda87fb/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:57:17-119
+140                android:value="com.google.firebase.components.ComponentRegistrar" />
+140-->[com.google.firebase:firebase-messaging:23.0.8] /Users/mac/.gradle/caches/transforms-3/7150f6ba60e9ed0012f6af7a3cda87fb/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:58:17-82
+141            <meta-data
+141-->[com.google.firebase:firebase-storage:20.0.2] /Users/mac/.gradle/caches/transforms-3/3d7bd5aa8200cc053bef0359054d9113/transformed/jetified-firebase-storage-20.0.2/AndroidManifest.xml:33:13-35:85
+142                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+142-->[com.google.firebase:firebase-storage:20.0.2] /Users/mac/.gradle/caches/transforms-3/3d7bd5aa8200cc053bef0359054d9113/transformed/jetified-firebase-storage-20.0.2/AndroidManifest.xml:34:17-107
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.firebase:firebase-storage:20.0.2] /Users/mac/.gradle/caches/transforms-3/3d7bd5aa8200cc053bef0359054d9113/transformed/jetified-firebase-storage-20.0.2/AndroidManifest.xml:35:17-82
+144            <meta-data
+144-->[com.google.android.gms:play-services-measurement-api:21.1.1] /Users/mac/.gradle/caches/transforms-3/1aee70617dbdd21c073a4bdf4b8f7539/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:31:13-33:85
+145                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+145-->[com.google.android.gms:play-services-measurement-api:21.1.1] /Users/mac/.gradle/caches/transforms-3/1aee70617dbdd21c073a4bdf4b8f7539/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:32:17-139
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.android.gms:play-services-measurement-api:21.1.1] /Users/mac/.gradle/caches/transforms-3/1aee70617dbdd21c073a4bdf4b8f7539/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:33:17-82
+147            <meta-data
+147-->[com.google.firebase:firebase-datatransport:18.1.6] /Users/mac/.gradle/caches/transforms-3/ac7e6b63b0b7fa1b64337b209d50acc1/transformed/jetified-firebase-datatransport-18.1.6/AndroidManifest.xml:28:13-30:85
+148                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+148-->[com.google.firebase:firebase-datatransport:18.1.6] /Users/mac/.gradle/caches/transforms-3/ac7e6b63b0b7fa1b64337b209d50acc1/transformed/jetified-firebase-datatransport-18.1.6/AndroidManifest.xml:29:17-115
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.firebase:firebase-datatransport:18.1.6] /Users/mac/.gradle/caches/transforms-3/ac7e6b63b0b7fa1b64337b209d50acc1/transformed/jetified-firebase-datatransport-18.1.6/AndroidManifest.xml:30:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-installations:17.0.3] /Users/mac/.gradle/caches/transforms-3/83cdf532489ca4e8213b219f0be15f7f/transformed/jetified-firebase-installations-17.0.3/AndroidManifest.xml:18:13-20:85
+151                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+151-->[com.google.firebase:firebase-installations:17.0.3] /Users/mac/.gradle/caches/transforms-3/83cdf532489ca4e8213b219f0be15f7f/transformed/jetified-firebase-installations-17.0.3/AndroidManifest.xml:19:17-127
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-installations:17.0.3] /Users/mac/.gradle/caches/transforms-3/83cdf532489ca4e8213b219f0be15f7f/transformed/jetified-firebase-installations-17.0.3/AndroidManifest.xml:20:17-82
+153        </service>
+154        <service
+154-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
+155            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+155-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
+156            android:exported="false"
+156-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+157            android:permission="android.permission.BIND_JOB_SERVICE" />
+157-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
+158        <service
+158-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
+159            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+159-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
+160            android:exported="false" >
+160-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+161            <intent-filter>
+161-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:57:12-59:28
+162                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+162-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:58:16-77
+162-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:58:24-74
+163            </intent-filter>
+164        </service>
+165
+166        <receiver
+166-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
+167            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+167-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
+168            android:exported="true"
+168-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+169            android:permission="com.google.android.c2dm.permission.SEND" >
+169-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
+170            <intent-filter>
+170-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+171                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+171-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+171-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+172            </intent-filter>
+173        </receiver>
+174
+175        <provider
+175-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
+176            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+176-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
+177            android:authorities="com.mindinterest.mindinterest_user.flutterfirebasemessaginginitprovider"
+177-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
+178            android:exported="false"
+178-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
+179            android:initOrder="99" />
+179-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
+180
+181        <receiver
+181-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
+182            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+182-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-91
+183            android:exported="false" />
+183-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+184        <receiver
+184-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
+185            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+185-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-97
+186            android:exported="false" />
+186-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+187        <receiver
+187-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-31:20
+188            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+188-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-101
+189            android:exported="false" >
+189-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+190            <intent-filter>
+190-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-30:29
+191                <action android:name="android.intent.action.BOOT_COMPLETED" />
+191-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-79
+191-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-76
+192                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+192-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-84
+192-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-81
+193                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+193-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-82
+193-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-79
+194                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+194-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-82
+194-->[:flutter_local_notifications] /Users/mac/Mobiles/mindinterst-user/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-79
+195            </intent-filter>
+196        </receiver>
+197
+198        <activity
+198-->[:url_launcher_android] /Users/mac/Mobiles/mindinterst-user/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+199            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+199-->[:url_launcher_android] /Users/mac/Mobiles/mindinterst-user/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+200            android:exported="false"
+200-->[:url_launcher_android] /Users/mac/Mobiles/mindinterst-user/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+201            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+201-->[:url_launcher_android] /Users/mac/Mobiles/mindinterst-user/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+202        <activity
+202-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:47
+203            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+203-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-104
+204            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+204-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-137
+205            android:exported="false"
+205-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+206            android:theme="@style/AppTheme" />
+206-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-44
+207        <activity
+207-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-24:55
+208            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+208-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-112
+209            android:exported="false"
+209-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-37
+210            android:theme="@style/ThemeTransparent" />
+210-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-52
+211        <activity
+211-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-28:55
+212            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+212-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-106
+213            android:exported="false"
+213-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-37
+214            android:theme="@style/ThemeTransparent" />
+214-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-52
+215        <activity
+215-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-33:55
+216            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+216-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-126
+217            android:exported="false"
+217-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-37
+218            android:launchMode="singleInstance"
+218-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-48
+219            android:theme="@style/ThemeTransparent" />
+219-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-52
+220        <activity
+220-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-38:55
+221            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+221-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-120
+222            android:exported="false"
+222-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-37
+223            android:launchMode="singleInstance"
+223-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-48
+224            android:theme="@style/ThemeTransparent" />
+224-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-52
+225
+226        <receiver
+226-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-43:40
+227            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+227-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-111
+228            android:enabled="true"
+228-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-35
+229            android:exported="false" />
+229-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-37
+230
+231        <meta-data
+231-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:45:9-47:36
+232            android:name="io.flutter.embedded_views_preview"
+232-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-61
+233            android:value="true" />
+233-->[:flutter_inappwebview] /Users/mac/Mobiles/mindinterst-user/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-33
+234
+235        <uses-library
+235-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/e1b324dced4ebc94913eb617567883b7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+236            android:name="androidx.window.extensions"
+236-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/e1b324dced4ebc94913eb617567883b7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+237            android:required="false" />
+237-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/e1b324dced4ebc94913eb617567883b7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+238        <uses-library
+238-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/e1b324dced4ebc94913eb617567883b7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+239            android:name="androidx.window.sidecar"
+239-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/e1b324dced4ebc94913eb617567883b7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+240            android:required="false" />
+240-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/e1b324dced4ebc94913eb617567883b7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+241
+242        <activity
+242-->[com.google.android.gms:play-services-auth:20.4.0] /Users/mac/.gradle/caches/transforms-3/7c1b982de4fcc91826782a2ece49de7a/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:23:9-27:75
+243            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+243-->[com.google.android.gms:play-services-auth:20.4.0] /Users/mac/.gradle/caches/transforms-3/7c1b982de4fcc91826782a2ece49de7a/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:24:13-93
+244            android:excludeFromRecents="true"
+244-->[com.google.android.gms:play-services-auth:20.4.0] /Users/mac/.gradle/caches/transforms-3/7c1b982de4fcc91826782a2ece49de7a/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:25:13-46
+245            android:exported="false"
+245-->[com.google.android.gms:play-services-auth:20.4.0] /Users/mac/.gradle/caches/transforms-3/7c1b982de4fcc91826782a2ece49de7a/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:26:13-37
+246            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+246-->[com.google.android.gms:play-services-auth:20.4.0] /Users/mac/.gradle/caches/transforms-3/7c1b982de4fcc91826782a2ece49de7a/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:27:13-72
+247        <!--
+248            Service handling Google Sign-In user revocation. For apps that do not integrate with
+249            Google Sign-In, this service will never be started.
+250        -->
+251        <service
+251-->[com.google.android.gms:play-services-auth:20.4.0] /Users/mac/.gradle/caches/transforms-3/7c1b982de4fcc91826782a2ece49de7a/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:33:9-37:51
+252            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+252-->[com.google.android.gms:play-services-auth:20.4.0] /Users/mac/.gradle/caches/transforms-3/7c1b982de4fcc91826782a2ece49de7a/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:34:13-89
+253            android:exported="true"
+253-->[com.google.android.gms:play-services-auth:20.4.0] /Users/mac/.gradle/caches/transforms-3/7c1b982de4fcc91826782a2ece49de7a/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:35:13-36
+254            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+254-->[com.google.android.gms:play-services-auth:20.4.0] /Users/mac/.gradle/caches/transforms-3/7c1b982de4fcc91826782a2ece49de7a/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:36:13-107
+255            android:visibleToInstantApps="true" />
+255-->[com.google.android.gms:play-services-auth:20.4.0] /Users/mac/.gradle/caches/transforms-3/7c1b982de4fcc91826782a2ece49de7a/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:37:13-48
+256
+257        <activity
+257-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:27:9-44:20
+258            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+258-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:28:13-80
+259            android:excludeFromRecents="true"
+259-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:29:13-46
+260            android:exported="true"
+260-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:30:13-36
+261            android:launchMode="singleTask"
+261-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:31:13-44
+262            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+262-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:32:13-72
+263            <intent-filter>
+263-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:33:13-43:29
+264                <action android:name="android.intent.action.VIEW" />
+264-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:34:17-69
+264-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:34:25-66
+265
+266                <category android:name="android.intent.category.DEFAULT" />
+266-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:36:17-76
+266-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:36:27-73
+267                <category android:name="android.intent.category.BROWSABLE" />
+267-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:37:17-78
+267-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:37:27-75
+268
+269                <data
+269-->[:file_picker] /Users/mac/Mobiles/mindinterst-user/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+270                    android:host="firebase.auth"
+271                    android:path="/"
+272                    android:scheme="genericidp" />
+273            </intent-filter>
+274        </activity>
+275        <activity
+275-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:45:9-62:20
+276            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+276-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:46:13-79
+277            android:excludeFromRecents="true"
+277-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:47:13-46
+278            android:exported="true"
+278-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:48:13-36
+279            android:launchMode="singleTask"
+279-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:49:13-44
+280            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+280-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:50:13-72
+281            <intent-filter>
+281-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:51:13-61:29
+282                <action android:name="android.intent.action.VIEW" />
+282-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:34:17-69
+282-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:34:25-66
+283
+284                <category android:name="android.intent.category.DEFAULT" />
+284-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:36:17-76
+284-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:36:27-73
+285                <category android:name="android.intent.category.BROWSABLE" />
+285-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:37:17-78
+285-->[com.google.firebase:firebase-auth:21.0.8] /Users/mac/.gradle/caches/transforms-3/2e3d6623ee7cf596ce1cd4603d3f017c/transformed/jetified-firebase-auth-21.0.8/AndroidManifest.xml:37:27-75
+286
+287                <data
+287-->[:file_picker] /Users/mac/Mobiles/mindinterst-user/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+288                    android:host="firebase.auth"
+289                    android:path="/"
+290                    android:scheme="recaptcha" />
+291            </intent-filter>
+292        </activity>
+293
+294        <receiver
+294-->[com.google.firebase:firebase-messaging:23.0.8] /Users/mac/.gradle/caches/transforms-3/7150f6ba60e9ed0012f6af7a3cda87fb/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:32:9-39:20
+295            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+295-->[com.google.firebase:firebase-messaging:23.0.8] /Users/mac/.gradle/caches/transforms-3/7150f6ba60e9ed0012f6af7a3cda87fb/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:33:13-78
+296            android:exported="true"
+296-->[com.google.firebase:firebase-messaging:23.0.8] /Users/mac/.gradle/caches/transforms-3/7150f6ba60e9ed0012f6af7a3cda87fb/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:34:13-36
+297            android:permission="com.google.android.c2dm.permission.SEND" >
+297-->[com.google.firebase:firebase-messaging:23.0.8] /Users/mac/.gradle/caches/transforms-3/7150f6ba60e9ed0012f6af7a3cda87fb/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:35:13-73
+298            <intent-filter>
+298-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+299                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+299-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+299-->[:firebase_messaging] /Users/mac/Mobiles/mindinterst-user/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+300            </intent-filter>
+301        </receiver>
+302        <!--
+303             FirebaseMessagingService performs security checks at runtime,
+304             but set to not exported to explicitly avoid allowing another app to call it.
+305        -->
+306        <service
+306-->[com.google.firebase:firebase-messaging:23.0.8] /Users/mac/.gradle/caches/transforms-3/7150f6ba60e9ed0012f6af7a3cda87fb/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:45:9-52:19
+307            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+307-->[com.google.firebase:firebase-messaging:23.0.8] /Users/mac/.gradle/caches/transforms-3/7150f6ba60e9ed0012f6af7a3cda87fb/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:46:13-82
+308            android:directBootAware="true"
+308-->[com.google.firebase:firebase-messaging:23.0.8] /Users/mac/.gradle/caches/transforms-3/7150f6ba60e9ed0012f6af7a3cda87fb/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:47:13-43
+309            android:exported="false" >
+309-->[com.google.firebase:firebase-messaging:23.0.8] /Users/mac/.gradle/caches/transforms-3/7150f6ba60e9ed0012f6af7a3cda87fb/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:48:13-37
+310            <intent-filter android:priority="-500" >
+310-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:57:12-59:28
+311                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+311-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:58:16-77
+311-->/Users/mac/Mobiles/mindinterst-user/android/app/src/main/AndroidManifest.xml:58:24-74
+312            </intent-filter>
+313        </service>
+314
+315        <activity
+315-->[com.google.android.gms:play-services-base:18.0.1] /Users/mac/.gradle/caches/transforms-3/d2e1eb6032ac108ad93b916d3a29d365/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+316            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+316-->[com.google.android.gms:play-services-base:18.0.1] /Users/mac/.gradle/caches/transforms-3/d2e1eb6032ac108ad93b916d3a29d365/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+317            android:exported="false"
+317-->[com.google.android.gms:play-services-base:18.0.1] /Users/mac/.gradle/caches/transforms-3/d2e1eb6032ac108ad93b916d3a29d365/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+318            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+318-->[com.google.android.gms:play-services-base:18.0.1] /Users/mac/.gradle/caches/transforms-3/d2e1eb6032ac108ad93b916d3a29d365/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+319
+320        <provider
+320-->[com.google.firebase:firebase-common:20.1.2] /Users/mac/.gradle/caches/transforms-3/36f510609a5d0d9f81893e2ff1ba3b48/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:26:9-31:39
+321            android:name="com.google.firebase.provider.FirebaseInitProvider"
+321-->[com.google.firebase:firebase-common:20.1.2] /Users/mac/.gradle/caches/transforms-3/36f510609a5d0d9f81893e2ff1ba3b48/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:27:13-77
+322            android:authorities="com.mindinterest.mindinterest_user.firebaseinitprovider"
+322-->[com.google.firebase:firebase-common:20.1.2] /Users/mac/.gradle/caches/transforms-3/36f510609a5d0d9f81893e2ff1ba3b48/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:28:13-72
+323            android:directBootAware="true"
+323-->[com.google.firebase:firebase-common:20.1.2] /Users/mac/.gradle/caches/transforms-3/36f510609a5d0d9f81893e2ff1ba3b48/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:29:13-43
+324            android:exported="false"
+324-->[com.google.firebase:firebase-common:20.1.2] /Users/mac/.gradle/caches/transforms-3/36f510609a5d0d9f81893e2ff1ba3b48/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:30:13-37
+325            android:initOrder="100" />
+325-->[com.google.firebase:firebase-common:20.1.2] /Users/mac/.gradle/caches/transforms-3/36f510609a5d0d9f81893e2ff1ba3b48/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:31:13-36
+326
+327        <receiver
+327-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/mac/.gradle/caches/transforms-3/2d95321a28d8cce3284ab251c69450c6/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:29:9-33:20
+328            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+328-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/mac/.gradle/caches/transforms-3/2d95321a28d8cce3284ab251c69450c6/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:30:13-85
+329            android:enabled="true"
+329-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/mac/.gradle/caches/transforms-3/2d95321a28d8cce3284ab251c69450c6/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:31:13-35
+330            android:exported="false" >
+330-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/mac/.gradle/caches/transforms-3/2d95321a28d8cce3284ab251c69450c6/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:32:13-37
+331        </receiver>
+332
+333        <service
+333-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/mac/.gradle/caches/transforms-3/2d95321a28d8cce3284ab251c69450c6/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:35:9-38:40
+334            android:name="com.google.android.gms.measurement.AppMeasurementService"
+334-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/mac/.gradle/caches/transforms-3/2d95321a28d8cce3284ab251c69450c6/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:36:13-84
+335            android:enabled="true"
+335-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/mac/.gradle/caches/transforms-3/2d95321a28d8cce3284ab251c69450c6/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:37:13-35
+336            android:exported="false" />
+336-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/mac/.gradle/caches/transforms-3/2d95321a28d8cce3284ab251c69450c6/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:38:13-37
+337        <service
+337-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/mac/.gradle/caches/transforms-3/2d95321a28d8cce3284ab251c69450c6/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:39:9-43:72
+338            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+338-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/mac/.gradle/caches/transforms-3/2d95321a28d8cce3284ab251c69450c6/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:40:13-87
+339            android:enabled="true"
+339-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/mac/.gradle/caches/transforms-3/2d95321a28d8cce3284ab251c69450c6/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:41:13-35
+340            android:exported="false"
+340-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/mac/.gradle/caches/transforms-3/2d95321a28d8cce3284ab251c69450c6/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:42:13-37
+341            android:permission="android.permission.BIND_JOB_SERVICE" />
+341-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/mac/.gradle/caches/transforms-3/2d95321a28d8cce3284ab251c69450c6/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:43:13-69
+342
+343        <meta-data
+343-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mac/.gradle/caches/transforms-3/86c1201887c098a6832572f672e703a7/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+344            android:name="com.google.android.gms.version"
+344-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mac/.gradle/caches/transforms-3/86c1201887c098a6832572f672e703a7/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+345            android:value="@integer/google_play_services_version" />
+345-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mac/.gradle/caches/transforms-3/86c1201887c098a6832572f672e703a7/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+346
+347        <provider
+347-->[androidx.emoji2:emoji2:1.2.0] /Users/mac/.gradle/caches/transforms-3/53890ad64f3d6f95fe5e04859c88642d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+348            android:name="androidx.startup.InitializationProvider"
+348-->[androidx.emoji2:emoji2:1.2.0] /Users/mac/.gradle/caches/transforms-3/53890ad64f3d6f95fe5e04859c88642d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+349            android:authorities="com.mindinterest.mindinterest_user.androidx-startup"
+349-->[androidx.emoji2:emoji2:1.2.0] /Users/mac/.gradle/caches/transforms-3/53890ad64f3d6f95fe5e04859c88642d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+350            android:exported="false" >
+350-->[androidx.emoji2:emoji2:1.2.0] /Users/mac/.gradle/caches/transforms-3/53890ad64f3d6f95fe5e04859c88642d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+351            <meta-data
+351-->[androidx.emoji2:emoji2:1.2.0] /Users/mac/.gradle/caches/transforms-3/53890ad64f3d6f95fe5e04859c88642d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+352                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+352-->[androidx.emoji2:emoji2:1.2.0] /Users/mac/.gradle/caches/transforms-3/53890ad64f3d6f95fe5e04859c88642d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+353                android:value="androidx.startup" />
+353-->[androidx.emoji2:emoji2:1.2.0] /Users/mac/.gradle/caches/transforms-3/53890ad64f3d6f95fe5e04859c88642d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+354            <meta-data
+354-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mac/.gradle/caches/transforms-3/ddb81c242453f5c61dcc351541238f66/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+355                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+355-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mac/.gradle/caches/transforms-3/ddb81c242453f5c61dcc351541238f66/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+356                android:value="androidx.startup" />
+356-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mac/.gradle/caches/transforms-3/ddb81c242453f5c61dcc351541238f66/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+357        </provider>
+358
+359        <service
+359-->[com.google.android.datatransport:transport-backend-cct:3.1.7] /Users/mac/.gradle/caches/transforms-3/f03692f7568c2bc1b64c6a0809339a7d/transformed/jetified-transport-backend-cct-3.1.7/AndroidManifest.xml:29:9-35:19
+360            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+360-->[com.google.android.datatransport:transport-backend-cct:3.1.7] /Users/mac/.gradle/caches/transforms-3/f03692f7568c2bc1b64c6a0809339a7d/transformed/jetified-transport-backend-cct-3.1.7/AndroidManifest.xml:30:13-103
+361            android:exported="false" >
+361-->[com.google.android.datatransport:transport-backend-cct:3.1.7] /Users/mac/.gradle/caches/transforms-3/f03692f7568c2bc1b64c6a0809339a7d/transformed/jetified-transport-backend-cct-3.1.7/AndroidManifest.xml:31:13-37
+362            <meta-data
+362-->[com.google.android.datatransport:transport-backend-cct:3.1.7] /Users/mac/.gradle/caches/transforms-3/f03692f7568c2bc1b64c6a0809339a7d/transformed/jetified-transport-backend-cct-3.1.7/AndroidManifest.xml:32:13-34:39
+363                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+363-->[com.google.android.datatransport:transport-backend-cct:3.1.7] /Users/mac/.gradle/caches/transforms-3/f03692f7568c2bc1b64c6a0809339a7d/transformed/jetified-transport-backend-cct-3.1.7/AndroidManifest.xml:33:17-94
+364                android:value="cct" />
+364-->[com.google.android.datatransport:transport-backend-cct:3.1.7] /Users/mac/.gradle/caches/transforms-3/f03692f7568c2bc1b64c6a0809339a7d/transformed/jetified-transport-backend-cct-3.1.7/AndroidManifest.xml:34:17-36
+365        </service>
+366        <service
+366-->[com.google.android.datatransport:transport-runtime:3.1.7] /Users/mac/.gradle/caches/transforms-3/139e74aa48120e80646e564ddb333dbf/transformed/jetified-transport-runtime-3.1.7/AndroidManifest.xml:26:9-30:19
+367            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+367-->[com.google.android.datatransport:transport-runtime:3.1.7] /Users/mac/.gradle/caches/transforms-3/139e74aa48120e80646e564ddb333dbf/transformed/jetified-transport-runtime-3.1.7/AndroidManifest.xml:27:13-117
+368            android:exported="false"
+368-->[com.google.android.datatransport:transport-runtime:3.1.7] /Users/mac/.gradle/caches/transforms-3/139e74aa48120e80646e564ddb333dbf/transformed/jetified-transport-runtime-3.1.7/AndroidManifest.xml:28:13-37
+369            android:permission="android.permission.BIND_JOB_SERVICE" >
+369-->[com.google.android.datatransport:transport-runtime:3.1.7] /Users/mac/.gradle/caches/transforms-3/139e74aa48120e80646e564ddb333dbf/transformed/jetified-transport-runtime-3.1.7/AndroidManifest.xml:29:13-69
+370        </service>
+371
+372        <receiver
+372-->[com.google.android.datatransport:transport-runtime:3.1.7] /Users/mac/.gradle/caches/transforms-3/139e74aa48120e80646e564ddb333dbf/transformed/jetified-transport-runtime-3.1.7/AndroidManifest.xml:32:9-34:40
+373            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+373-->[com.google.android.datatransport:transport-runtime:3.1.7] /Users/mac/.gradle/caches/transforms-3/139e74aa48120e80646e564ddb333dbf/transformed/jetified-transport-runtime-3.1.7/AndroidManifest.xml:33:13-132
+374            android:exported="false" />
+374-->[com.google.android.datatransport:transport-runtime:3.1.7] /Users/mac/.gradle/caches/transforms-3/139e74aa48120e80646e564ddb333dbf/transformed/jetified-transport-runtime-3.1.7/AndroidManifest.xml:34:13-37
+375    </application>
+376
+377</manifest>

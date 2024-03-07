@@ -1,0 +1,12 @@
+com.github.rmtmckenzie.native_device_orientation-jetified-window-java-1.0.0-beta04-0 /Users/mac/.gradle/caches/transforms-3/1431627d644f7850d8210ab6fcc15c38/transformed/jetified-window-java-1.0.0-beta04/res
+com.github.rmtmckenzie.native_device_orientation-jetified-annotation-experimental-1.1.0-1 /Users/mac/.gradle/caches/transforms-3/2525266aba30133b028828ad83740afd/transformed/jetified-annotation-experimental-1.1.0/res
+com.github.rmtmckenzie.native_device_orientation-jetified-window-1.0.0-beta04-2 /Users/mac/.gradle/caches/transforms-3/e1b324dced4ebc94913eb617567883b7/transformed/jetified-window-1.0.0-beta04/res
+com.github.rmtmckenzie.native_device_orientation-core-1.6.0-3 /Users/mac/.gradle/caches/transforms-3/edb38141fc4b872dfab5526bcdae82af/transformed/core-1.6.0/res
+com.github.rmtmckenzie.native_device_orientation-main-4 /Users/mac/.pub-cache/hosted/pub.dev/native_device_orientation-1.1.4/android/src/main/res
+com.github.rmtmckenzie.native_device_orientation-release-5 /Users/mac/.pub-cache/hosted/pub.dev/native_device_orientation-1.1.4/android/src/release/res
+com.github.rmtmckenzie.native_device_orientation-pngs-6 /Users/mac/Mobiles/mindinterst-user/build/native_device_orientation/generated/res/pngs/release
+com.github.rmtmckenzie.native_device_orientation-resValues-7 /Users/mac/Mobiles/mindinterst-user/build/native_device_orientation/generated/res/resValues/release
+com.github.rmtmckenzie.native_device_orientation-rs-8 /Users/mac/Mobiles/mindinterst-user/build/native_device_orientation/generated/res/rs/release
+com.github.rmtmckenzie.native_device_orientation-mergeReleaseResources-9 /Users/mac/Mobiles/mindinterst-user/build/native_device_orientation/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.github.rmtmckenzie.native_device_orientation-mergeReleaseResources-10 /Users/mac/Mobiles/mindinterst-user/build/native_device_orientation/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.github.rmtmckenzie.native_device_orientation-merged_res-11 /Users/mac/Mobiles/mindinterst-user/build/native_device_orientation/intermediates/merged_res/release
